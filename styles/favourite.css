@@ -1,0 +1,41 @@
+.heading h1{
+    color:white;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.cross{
+    position: absolute;
+    top:-8px;
+    right:0px;
+}
+.cross i{
+    color:red;
+    font-size: 40px;
+    font-weight: 900;
+}
+#removeAll{
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: red !important;
+    display: inline-block !important;
+    width:250px;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.heading a{
+    color:white;
+    background-color: green;
+    text-decoration: none;
+    display: inline-block;
+    width:150px;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+}

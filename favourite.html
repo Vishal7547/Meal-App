@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal App</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/home.css">
+        <link rel="stylesheet" href="styles/favourite.css">
+    <link rel="stylesheet" href="styles/media-query-home.css">
+
+    </head>
+<body>
+<section class="header">
+    <div class="container-fluid">
+        <div class="row">
+             <!-- navbar -->
+            <div class="row navbar g-0">
+                <div class="col-3 app_name">
+                    <a href="index.html">Foodie</a>
+                </div>
+                <div class="col-9 menu">
+                    <ul>
+                       
+                        <li>
+                            <a href="meal.html">MEAL</a>
+                        </li>
+                        <li id="set_pos">
+                            <a href="favourite.html">
+                            <span id="count">0</span>
+                                <i class="bi bi-heart-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+        </div>
+    </div>    
+</section>
+<!-- liked product -->
+<section class="likedItem mt-5">
+<div class="container">
+    <div class="row">
+        <div class="row heading text-center" id="empty">
+            <!-- 
+                 <h1 >your favourite list is empty</h1>
+                <a href="index.html">Back to home</a>
+
+                //data fetch from favourite.js
+            -->
+        </div>
+       
+
+        <div class="row favouriteItem justify-content-center" id="yourLiked">
+            <!-- <div class="col-4">
+                <div class="food-shortDes">
+                    <div class="cross">
+                        <i class="bi bi-x-lg"></i>
+                    </div>
+                    <div class="imgFood">
+                        <img src="images/potato.jpg" alt="potato">
+                    </div>
+                    <a href="meal.html"><p>sweets potato</p></a>
+                  </div>
+            </div> -->
+
+            <!-- fetch data from favourite.js -->
+        </div>
+    </div>
+</div>
+</section>
+<!-- bootstrap link -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<!-- javascript links -->
+<script src="event/favourite.js"></script>  
+ 
+</body>
+</html>
